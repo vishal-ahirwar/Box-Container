@@ -24,6 +24,10 @@
 
 int main(int argc,char*argv[])
 {
+    BC::BoxContainer int_container(45);
+    auto capacity{int_container.getCapacity()};
+    std::cerr<<"Capacity : "<<capacity<<"\n";
+    
     return 0;
 };
 
